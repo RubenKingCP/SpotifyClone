@@ -1,0 +1,35 @@
+.option-wrapper {
+    /*Properties*/
+    height: 100%;
+    width: 150px;
+    padding: 10px 0px;
+    
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    /*Decorations*/
+    background-color: red;
+    border-radius: 10px;
+}
+
+.img-placeholder {
+    /*Properties*/
+    height: 8rem;
+    width: 8rem;
+
+    /*Decorations*/
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+.option-title {
+    font-size: 20px;
+}
+
+.option-details {
+    font-size: 14px;
+}

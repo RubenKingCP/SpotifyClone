@@ -1,11 +1,14 @@
 import React from "react";
+import HomeMusicOption from "./App/Components/HomeMusicOption/HomeMusicOption";
 
-const App = () =>{
-    return (
-        <h1>
-            Hello world! I am using React
-        </h1>
-    )
-}
 
-export default App
+
+const App = () => {
+  return (
+    <>
+      <HomeMusicOption />
+    </>
+  );
+};
+
+export default App;
