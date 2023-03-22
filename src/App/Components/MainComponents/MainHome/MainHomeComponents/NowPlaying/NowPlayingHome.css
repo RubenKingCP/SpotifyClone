@@ -1,0 +1,9 @@
+.now-playing-home-wrapper {
+    /*Properties*/
+    height: 70%;
+    width: 70%;
+
+    /*Decoration*/
+    background-color: red;
+    
+}

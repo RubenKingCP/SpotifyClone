@@ -1,8 +1,8 @@
 .side-wrapper {
     /*Properties*/
-    width: 200px;
+    width: 250px;
     height: 100vh;
-    min-width: 200px;
+    min-width: 250px;
     min-height: 600px;
     
     /*Display*/
@@ -12,6 +12,10 @@
     align-items: center;
     flex-wrap: nowrap;
 
+    /*Positioning*/
+    position: fixed;
+    left: 0;
+    top: 0;
     /*Decorations*/
     background-color: darkred;
 }

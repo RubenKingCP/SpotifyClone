@@ -1,7 +1,14 @@
 .music-wrapper {
+    /*Properties*/
     width: 100vw;
-    height: 15vh;
-    background-color: green;
+    height: 10vh;
+
+    min-height: 75px;
+
+    /*Positioning*/
     position: fixed;
     bottom: 0;
+
+    /*Decoration*/
+    background-color: green;
 }
