@@ -1,12 +1,12 @@
 import React from "react";
-import HomeMusicOption from "./App/Components/HomeMusicOption/HomeMusicOption";
+import Home from "./App/Pages/Home/Home";
 
 
 
 const App = () => {
   return (
     <>
-      <HomeMusicOption />
+      <Home />
     </>
   );
 };

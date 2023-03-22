@@ -1,0 +1,17 @@
+.side-wrapper {
+    /*Properties*/
+    width: 200px;
+    height: 100vh;
+    min-width: 200px;
+    min-height: 600px;
+    
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    /*Decorations*/
+    background-color: darkred;
+}
