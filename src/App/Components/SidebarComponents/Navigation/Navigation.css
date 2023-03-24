@@ -1,9 +1,9 @@
 .top-wrapper {
     /*Properties*/
-    height: 20vh;
     width: 100%;
 
-    min-height: 200px;
+    min-height: 210px;
+    min-width: 230px;
     /*Display*/
     display: flex;
     flex-direction: column;

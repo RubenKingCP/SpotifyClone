@@ -1,14 +1,21 @@
 .music-wrapper {
     /*Properties*/
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
 
-    min-height: 75px;
+    min-height: 80px;
 
     /*Positioning*/
-    position: fixed;
+    position: absolute;
     bottom: 0;
 
     /*Decoration*/
     background-color: green;
+}
+
+@media screen and (max-height: 720px) {
+    .music-wrapper {
+        position: fixed;
+        top: 0;
+        margin-top: 640px;
+    }
 }

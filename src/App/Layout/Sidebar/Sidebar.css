@@ -1,21 +1,21 @@
 .side-wrapper {
     /*Properties*/
     width: 250px;
-    height: 100vh;
+    height: 100%;
     min-width: 250px;
-    min-height: 600px;
+    min-height: 640px;
     
     /*Display*/
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: nowrap;
 
     /*Positioning*/
     position: fixed;
     left: 0;
     top: 0;
+    
     /*Decorations*/
     background-color: darkred;
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import "./TopPart.css"
+import "./Navigation.css"
 
-const TopPart = () => {
+const Navigation = () => {
     return (
         <>
             <div className="top-wrapper">
@@ -20,4 +20,4 @@ const TopPart = () => {
     )
 }
 
-export default TopPart;
+export default Navigation;

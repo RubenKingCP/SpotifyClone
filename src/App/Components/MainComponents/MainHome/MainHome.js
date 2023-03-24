@@ -1,6 +1,7 @@
 import React from "react";
 import "./MainHome.css";
 
+import CategoryWrapper from "../../MusicOptions/CategoryWrapper/CategoryWrapper";
 import NowPlayingHome from "./MainHomeComponents/NowPlaying/NowPlayingHome";
 
 const MainHome = () => {
@@ -11,7 +12,7 @@ const MainHome = () => {
                     <div className="now-playing-style-wrapper">
                         <NowPlayingHome />
                     </div>
-                    <div className="recently"></div>
+                    <CategoryWrapper className="recently"/>
                 </div>
                 <div className="copy"></div>
                 <div className="copy"></div>

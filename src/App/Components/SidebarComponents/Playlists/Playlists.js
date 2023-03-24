@@ -1,8 +1,8 @@
 import React from "react";
-import "./BottomPart.css"
+import "./Playlists.css"
 
 
-const BottomPart = () => {
+const Playlists = () => {
     return (
         <>
             <div className="bot-wrapper">
@@ -12,4 +12,4 @@ const BottomPart = () => {
     )
 }
 
-export default BottomPart;
+export default Playlists;

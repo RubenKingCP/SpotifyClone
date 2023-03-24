@@ -3,7 +3,61 @@
     height: 70%;
     width: 70%;
 
+    /*Dispaly*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     /*Decoration*/
     background-color: red;
     
+}
+
+.img {
+    /*Properties*/
+    height: 70%;
+    width: 70%;
+
+    /*Decorations*/
+    background-color: black;
+}
+
+.play-controls-home {
+    /*Display*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.edge-btn {
+    /*Properties*/
+    width: 30px;
+    height: 30px;
+    
+    /*Decorations*/
+    border-radius: 5rem;
+    background-color: blue;
+
+}
+
+.side-btn {
+    /*Properties*/
+    width: 40px;
+    height: 40px;
+
+    /*Decorations*/
+    border-radius: 5rem;
+    background-color: blue;
+}
+
+.middle-btn {
+    /*Properties*/ 
+    height: 50px;
+    width: 50px;
+
+    /*Decorations*/
+    border-radius: 5rem;
+    background-color: blue;
 }

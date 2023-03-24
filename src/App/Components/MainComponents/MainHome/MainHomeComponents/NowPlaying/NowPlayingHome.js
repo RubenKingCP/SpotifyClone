@@ -15,7 +15,7 @@ const NowPlayingHome = () => {
                     <div className="middle-btn"></div>
                     <div className="side-btn"></div>
                     <div className="edge-btn"></div>
-                </div>
+                </div> 
             </div>
         </>
     )

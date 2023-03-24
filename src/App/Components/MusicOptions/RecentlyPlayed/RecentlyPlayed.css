@@ -1,0 +1,24 @@
+.recentlyPlayed-title {
+    /*Properties*/
+    width: 400px;
+    height: 50px;
+    
+    /*Decorations*/
+    border-bottom: 5px solid black;
+}
+
+
+
+
+.recentlyPlayed-wrapper {
+    /*Properties*/
+    background-color: blue;
+    height: 275px;
+    width: 400px;
+
+    /*Display*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
